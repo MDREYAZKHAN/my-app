@@ -1,0 +1,65 @@
+ .row{
+    text-align: center;
+}
+body{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ <UserDashboard  data={data} setData={setData}/>
+
+
+
+
+
+
+
+
+<div>
+            <h1> User Dashboard </h1>
+            <table class="table  table-dark table-hover">
+            
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Division</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    { data &&
+        data.map((user)=>(
+            <tr>
+            <th scope="row">{user.id}</th>
+            <td>{user.name}</td>
+            <td>{user.email}</td>
+            <td>{user.phone}</td>
+            <td>{user.Division}</td>
+            <td
+                style={{display:"flex", justifyContent:"space-between"}}>
+
+                    <button className="btn btn-info">Edit</button>
+                    <button className="btn btn-danger"  onClick={()=> handleDelete(user.id)}>Delete</button>
+            </td>
+          </tr>
+        ))
+    }
+  </tbody>
+</table>
+           
+        </div> */

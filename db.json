@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "name": "riyaz khan",
+      "email": "khanriyaz123@gmail.com",
+      "phone": "9576029343",
+      "marks": "",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
